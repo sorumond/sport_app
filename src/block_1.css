@@ -1,0 +1,47 @@
+.block_1 {
+  background: url("image/block_1_back.png") no-repeat right var(--block_1_background);
+  background-size: contain;
+  padding: 1px;
+  margin: -1px;
+}
+
+.logo {
+  width: 99px;
+  height: 32px;
+  margin-top: 60px;
+  margin-left: 163px;
+  display: block;
+  background: url("image/LOGO.svg") no-repeat;
+  background-size: contain;
+}
+
+.block_1_text {
+  font-family: lato, sans-serif;
+  display: block;
+  margin-left: 163px;
+  margin-top: 133px;
+  margin-bottom: 164px;
+}
+
+.block_1_text .h1 {
+  color: var(--h_black);
+  font-size: 36px;
+  width: 546px;
+  display: block;
+}
+
+.block_1_text .text {
+  display: block;
+  width: 453px;
+  color: var(--text_black);
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 50px;
+}
+
+.apple_store,
+.google_play {
+  width: 156px;
+  height: 47px;
+  margin-right: 36px;
+}

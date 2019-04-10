@@ -1,0 +1,159 @@
+.block_2 {
+  display: flex;
+  justify-content: center;
+  padding: 1px;
+  margin: -1px;
+}
+
+.block_2_left {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background: linear-gradient(270deg, #fff 5.16%,
+  rgba(255, 255, 255, 0) 67.14%),
+    rgba(255, 255, 255, 0.5);
+  background-size: contain;
+  width: 800px;
+  position: relative;
+}
+
+.block_2_left::before {
+  background-image: url("image/block_2_left_background.png");
+  background-size: cover;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  opacity: 0.9;
+}
+
+.upper_block {
+  display: flex;
+}
+
+.notification_block {
+  flex-basis: 360px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 163px;
+  margin-top: 109px;
+  background: var(--white);
+  border-radius: 4px;
+}
+
+.match_info {
+  display: flex;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  margin-right: 63px;
+  margin-left: 16px;
+}
+
+.match_time {
+  color: var(--text_black);
+  font-size: 17px;
+  line-height: 22px;
+  margin-top: 27px;
+}
+
+.description .h2 {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--full_black);
+  margin-top: 13px;
+}
+
+.match_type {
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--full_black);
+  margin-top: 14px;
+  margin-bottom: 17px;
+}
+
+.club_logo {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  height: 84px;
+  align-self: center;
+}
+
+.arsenal_logo {
+  width: 71px;
+  display: block;
+}
+
+.chelsea_logo {
+  width: 84px;
+  display: block;
+  position: relative;
+  right: 15px;
+}
+
+.turn_on {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  background: var(--notification_background);
+}
+
+.video_block {
+  width: 360px;
+  margin-left: 163px;
+  margin-bottom: 50px;
+}
+
+.video {
+  width: 360px;
+}
+
+.block_2_right {
+  flex-grow: 0;
+}
+
+.text_block {
+  width: 582px;
+  margin-right: 61px;
+}
+
+.blue_links {
+  color: var(--blue);
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.block_2_right .top {
+  margin-top: 133px;
+  display: block;
+}
+
+.block_2_right .h3 {
+  width: 426px;
+  margin-bottom: 26px;
+}
+
+.block_2_right .text {
+  color: var(--text_black);
+  display: block;
+  width: 407px;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 500;
+}
+
+.block_2_right .bottom {
+  width: 582px;
+  margin-top: 22px;
+  margin-bottom: 117px;
+}
