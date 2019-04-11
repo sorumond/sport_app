@@ -101,9 +101,71 @@
 
 .turn_on {
   display: flex;
-  justify-content: space-around;
   align-content: center;
   background: var(--notification_background);
+  color: var(--text_black);
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.label {
+  position: relative;
+  display: block;
+  height: 20px;
+  width: 44px;
+  background: #898989;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.label:after {
+  position: absolute;
+  left: -2px;
+  top: -3px;
+  display: block;
+  width: 26px;
+  height: 26px;
+  border-radius: 100px;
+  background: #fff;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.05);
+  content: "";
+  transition: all 0.3s ease;
+}
+
+.label:active:after {
+  transform: scale(1.15, 0.85);
+}
+
+.notification_button:checked ~ .label {
+  background: #6fbeb5;
+}
+
+.notification_button:checked ~ .label:after {
+  left: 20px;
+  background: #179588;
+}
+
+.notification_button:disabled ~ .label {
+  background: #d5d5d5;
+  pointer-events: none;
+}
+
+.notification_button:disabled ~ .label:after {
+  background: #bcbdbc;
+}
+
+.hidden {
+  display: none;
+}
+
+.toggle_bar {
+  align-self: center;
+  margin-right: 26px;
+}
+
+.match_notification {
+  margin-left: 16px;
 }
 
 .video_block {
@@ -114,6 +176,7 @@
 
 .video {
   width: 360px;
+  border-radius: 4px;
 }
 
 .block_2_right {
