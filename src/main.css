@@ -27,6 +27,7 @@ body {
   --h3_black: #333;
   --notification_background: #eee;
   --main_font: lato, sans-serif;
+  --twitter-border: #828282;
 }
 
 .h3 {
