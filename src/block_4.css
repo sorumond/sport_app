@@ -1,0 +1,40 @@
+.block_4 {
+  display: flex;
+  background: url("image/block_4_background.svg") no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  align-content: center;
+}
+
+.block_4 .h2 {
+  text-align: center;
+  color: var(--white);
+  font-size: 28px;
+  line-height: 37px;
+  margin-top: 76px;
+}
+
+.features_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 162px;
+  font-size: 16px;
+  color: var(--white);
+  line-height: 23px;
+  padding: 0;
+  justify-content: space-between;
+  margin-bottom: 66px;
+}
+
+.list {
+  flex-basis: 311px;
+  margin-right: 90px;
+  list-style: none;
+  margin-bottom: 50px;
+}
+.features_description::before {
+  content: "•";
+  color: var(--white);
+  font-family: var(--main_font);
+}
+
