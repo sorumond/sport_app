@@ -39,6 +39,7 @@
   justify-content: center;
   flex-grow: 1;
   position: relative;
+  box-sizing: content-box;
 }
 
 .mobile_phone {
@@ -68,3 +69,116 @@
   right: -20px;
 }
 
+.first_cirle {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  z-index: -1;
+  border: dashed 1px var(--blue);
+margin: auto;
+  border-radius: 50%;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.second_circle {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  z-index: -1;
+  border: dashed 1px var(--blue);
+  border-radius: 50%;
+  margin: auto;
+  top: 0; bottom: 0;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.third_circle {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  z-index: -1;
+  border: solid 1px var(--blue);
+  border-radius: 50%;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+  opacity: 0.2;
+  overflow: hidden;
+}
+
+.fourth_circle {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  z-index: -2;
+  border-left: solid 1px var(--blue);
+  border-radius: 50%;
+  margin: auto;
+  top: 0; bottom: 0;
+  opacity: 0.2;
+  overflow: hidden;
+}
+
+.fifth_circle {
+  position: absolute;
+  width: 1200px;
+  height: 1200px;
+  z-index: -2;
+  border-left: solid 1px var(--blue);
+  border-radius: 50%;
+  margin: auto;
+  top: 0; bottom: 0;
+  opacity: 0.2;
+  overflow: hidden;
+}
+
+.sixth_circle {
+  position: absolute;
+  width: 1400px;
+  height: 1400px;
+  z-index: -2;
+  border-left: solid 1px var(--blue);
+  border-radius: 50%;
+  margin: auto;
+  top: 0; bottom: 0;
+  opacity: 0.2;
+  overflow: hidden;
+}
+
+.seventh_circle {
+  position: absolute;
+  width: 1600px;
+  height: 1600px;
+  z-index: -2;
+  border-left: solid 1px var(--blue);
+  border-radius: 50%;
+  margin: auto;
+  top: 0; bottom: 0;
+  opacity: 0.2;
+  overflow: hidden;
+}
+
+.eighth_circle {
+  position: absolute;
+  width: 1800px;
+  height: 1800px;
+  z-index: -2;
+  border-left: solid 1px var(--blue);
+  border-radius: 50%;
+  margin: auto;
+  top: 0; bottom: 0;
+  opacity: 0.2;
+  overflow: hidden;
+}
+
+.ninth_circle {
+  position: absolute;
+  width: 2000px;
+  height: 2000px;
+  z-index: -2;
+  border-left: solid 1px var(--blue);
+  border-radius: 50%;
+  margin: auto;
+  top: 0; bottom: 0;
+  opacity: 0.2;
+  overflow: hidden;
+}
