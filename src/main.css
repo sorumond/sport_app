@@ -24,6 +24,7 @@ body {
   --block_1_background: #f4f6f9;
   --h3_black: #333;
   --notification_background: #eee;
+  --main_font: Lato, sans-serif;
 }
 
 .h3 {
@@ -31,4 +32,12 @@ body {
   font-weight: bold;
   font-size: 28px;
   line-height: 37px;
+}
+
+.blue_links {
+  color: var(--blue);
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold;
+  text-decoration: none;
 }

@@ -1,0 +1,70 @@
+.block_3 {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.block_3_left {
+  display: block;
+  margin-left: 162px;
+  font-family: var(--main_font);
+}
+
+.block_3_left .top {
+  margin-top: 217px;
+}
+
+.block_3_left .h3 {
+  margin-top: 27px;
+}
+
+.block_3_left .text {
+  width: 480px;
+  color: var(--text_black);
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  font-weight: 500;
+}
+
+.block_3_left .bottom {
+  margin-top: 54px;
+  margin-bottom: 171px;
+  display: block;
+}
+
+.block_3_right {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-grow: 1;
+  position: relative;
+}
+
+.mobile_phone {
+  position: relative;
+  margin-top: 100px;
+}
+
+.mobile_phone::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url("image/bell_notification.svg") 50% 50%;
+  background-size: contain;
+  top: 60px;
+  left: 30px;
+}
+
+.mobile_phone::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url("image/mobile_notification.svg") 50% 50%;
+  background-size: contain;
+  bottom: 145px;
+  right: -20px;
+}
+

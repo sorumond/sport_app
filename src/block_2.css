@@ -188,17 +188,8 @@
   margin-right: 61px;
 }
 
-.blue_links {
-  color: var(--blue);
-  font-size: 16px;
-  line-height: 21px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
 .block_2_right .top {
   margin-top: 133px;
-  display: block;
 }
 
 .block_2_right .h3 {
