@@ -1,13 +1,13 @@
-# Project Name
+# Sport app
 
-### [Demo](https://link-to-github-pages.com)
+### [Demo](https://sorumond.github.io/sport_app/)
 
 ### Description
 
-Tell about your project
+Web-site for sport app
 
 ### Technologies are used
 
 - HTML
 - CSS
-- ...
+- Slick

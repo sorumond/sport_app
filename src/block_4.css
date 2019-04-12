@@ -23,7 +23,7 @@
   line-height: 23px;
   padding: 0;
   justify-content: space-between;
-  margin-bottom: 66px;
+  align-content: baseline;
 }
 
 .list {

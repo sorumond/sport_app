@@ -6,6 +6,9 @@
   text-align: center;
   margin-bottom: 63px;
   margin-top: 68px;
+  font-size: 28px;
+  line-height: 37px;
+  color: var(--text_black);
 }
 
 .twitter {
@@ -20,7 +23,7 @@
   border: 1px solid var(--twitter-border);
   margin-right: 50px;
   border-radius: 4px;
-  height: 161px;
+  height: 200px;
   overflow: hidden;
 }
 
@@ -54,6 +57,9 @@
 
 .opinion {
   margin-left: 17px;
+  font-size: 14px;
+  color: var(--text_black);
+  line-height: 18px;
 }
 
 .slick-prev,
@@ -92,4 +98,3 @@
 .slick-dots {
   bottom: -60px;
 }
-

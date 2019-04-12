@@ -1,0 +1,33 @@
+.block_7 {
+  display: flex;
+  justify-content: flex-end;
+  background: url("image/block_7_background.png") no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+.block_7 .content {
+  margin-right: 162px;
+  margin-top: 105px;
+  width: 535px;
+}
+
+.block_7_header {
+  color: var(--h_black);
+  font-size: 28px;
+  line-height: 37px;
+  display: block;
+  width: 554px;
+}
+
+.block_7 .text {
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--text_black);
+  margin-bottom: 38px;
+}
+
+.block_7 .google_play,
+.block_7 .apple_store {
+  margin-bottom: 100px;
+}
