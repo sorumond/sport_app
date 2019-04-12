@@ -1,6 +1,6 @@
 # Sport app
 
-### [Demo](https://sorumond.github.io/sport_app/)
+### [Demo](https://sorumond.github.io/sport_app/src)
 
 ### Description
 
