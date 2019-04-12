@@ -32,9 +32,9 @@
   list-style: none;
   margin-bottom: 50px;
 }
+
 .features_description::before {
   content: "•";
   color: var(--white);
   font-family: var(--main_font);
 }
-

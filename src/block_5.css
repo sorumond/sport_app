@@ -86,7 +86,8 @@
 }
 
 .slick-current:before {
-  background: linear-gradient(270deg, #FFFFFF 49.84%, rgba(255, 255, 255, 0) 126.7%);
+  background: linear-gradient(270deg, #fff 49.84%,
+  rgba(255, 255, 255, 0) 126.7%);
   border-radius: 4px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
   background-size: cover;
@@ -100,5 +101,3 @@
   z-index: 2;
   opacity: 0.5;
 }
-
-
