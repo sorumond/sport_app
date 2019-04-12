@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-content: center;
+  overflow: hidden;
 }
 
 .block_3_left {
@@ -106,7 +107,7 @@
   margin: auto;
   top: 0;
   bottom: 0;
-  opacity: 0.1;
+  opacity: 0.7;
   overflow: hidden;
 }
 
@@ -120,7 +121,7 @@
   margin: auto;
   top: 0;
   bottom: 0;
-  opacity: 0.1;
+  opacity: 0.6;
   overflow: hidden;
 }
 
@@ -134,7 +135,7 @@
   margin: auto;
   top: 0;
   bottom: 0;
-  opacity: 0.1;
+  opacity: 0.5;
   overflow: hidden;
 }
 
@@ -148,7 +149,7 @@
   margin: auto;
   top: 0;
   bottom: 0;
-  opacity: 0.1;
+  opacity: 0.4;
   overflow: hidden;
 }
 
@@ -162,7 +163,7 @@
   margin: auto;
   top: 0;
   bottom: 0;
-  opacity: 0.1;
+  opacity: 0.3;
   overflow: hidden;
 }
 
@@ -176,7 +177,7 @@
   margin: auto;
   top: 0;
   bottom: 0;
-  opacity: 0.1;
+  opacity: 0.2;
   overflow: hidden;
 }
 
@@ -193,3 +194,4 @@
   opacity: 0.1  ;
   overflow: hidden;
 }
+

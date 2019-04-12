@@ -1,0 +1,31 @@
+.block_6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background: var(--light_grey);
+}
+
+.block_6_header {
+  margin-top: 57px;
+  margin-bottom: 60px;
+  color: var(--h3_black);
+  font-family: var(--main_font);
+  font-size: 28px;
+  line-height: 37px;
+}
+
+.sponsors_list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 68px;
+  flex-wrap: wrap;
+}
+
+.sponsor {
+  margin-right: 80px;
+  text-decoration: none;
+  padding: 0;
+  list-style: none;
+}

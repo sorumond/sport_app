@@ -1,10 +1,15 @@
 .block_5 {
-  box-sizing: content-box;
   overflow: hidden;
 }
 
+.twitter_block_head {
+  text-align: center;
+  margin-bottom: 63px;
+  margin-top: 68px;
+}
+
 .twitter {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 
@@ -73,10 +78,18 @@
   border-radius: 50%;
   background: url("image/arrow_right.svg") 50% 50% no-repeat;
   z-index: 10;
-  right: 0;
+  right: -50px;
 }
 
 .slick-next {
   border: 1px solid var(--blue);
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 108px;
+}
+
+.slick-dots {
+  bottom: -60px;
 }
 

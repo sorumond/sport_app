@@ -3,6 +3,8 @@
 @import "block_3.css";
 @import "block_4.css";
 @import "block_5.css";
+@import "block_6.css";
+@import "block_7.css";
 
 * {
   box-sizing: border-box;
@@ -11,10 +13,9 @@
 body {
   margin: 0 auto;
   max-width: 1440px;
+  font-family: Lato, sans-serif;
   display: flex;
   flex-direction: column;
-  font-family: Lato, sans-serif;
-  overflow-x: hidden;
 }
 
 :root {
