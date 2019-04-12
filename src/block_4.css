@@ -34,7 +34,7 @@
 }
 
 .features_description::before {
-  content: "•";
+  content: "• ";
   color: var(--white);
   font-family: var(--main_font);
 }
