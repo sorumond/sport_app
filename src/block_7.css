@@ -1,8 +1,7 @@
 .block_7 {
   display: flex;
   justify-content: flex-end;
-  background: url("image/block_7_background.png") no-repeat;
-  background-position: left;
+  background: url("image/block_7_background.png") no-repeat left;
   background-size: contain;
 }
 
