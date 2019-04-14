@@ -1,14 +1,18 @@
 .block_7 {
   display: flex;
   justify-content: flex-end;
+}
+
+.background {
+  flex-grow: 1;
   background: url("image/block_7_background.png") no-repeat left;
-  background-size: contain;
+  background-size: 100% 100%;
 }
 
 .block_7 .content {
   margin-right: 162px;
   margin-top: 105px;
-  width: 535px;
+  flex-basis: 535px;
 }
 
 .block_7_header {
