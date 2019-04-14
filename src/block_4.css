@@ -26,7 +26,7 @@
   align-content: baseline;
 }
 
-.list {
+.item {
   flex-basis: 311px;
   margin-right: 90px;
   list-style: none;

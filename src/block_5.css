@@ -1,5 +1,6 @@
 .block_5 {
   overflow: hidden;
+
 }
 
 .twitter_block_head {
@@ -23,7 +24,7 @@
   border: 1px solid var(--twitter-border);
   margin-right: 50px;
   border-radius: 4px;
-  height: 161px;
+  height: 161px; /* goodbye, Lui */
 }
 
 .upper {
@@ -59,6 +60,7 @@
   font-size: 14px;
   color: var(--text_black);
   line-height: 18px;
+  margin-right: 13px;
 }
 
 .slick-prev,
