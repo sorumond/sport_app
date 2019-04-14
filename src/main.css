@@ -81,6 +81,9 @@ body {
   text-decoration: none;
   color: var(--white);
   margin-right: 37px;
+  font-weight: bold;
+  font-family: var(--main_font);
+  font-size: 16px;
 }
 
 .footer_middle_link:hover {
