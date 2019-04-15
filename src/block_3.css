@@ -130,7 +130,7 @@
   width: 1200px;
   height: 1200px;
   z-index: -3;
-  border-left: solid 1px var(--blue);
+  border: solid 1px var(--blue);
   border-radius: 50%;
   margin: auto;
   top: 0;
@@ -144,7 +144,7 @@
   width: 1400px;
   height: 1400px;
   z-index: -2;
-  border-left: solid 1px var(--blue);
+  border: solid 1px var(--blue);
   border-radius: 50%;
   margin: auto;
   top: 0;
@@ -158,7 +158,7 @@
   width: 1600px;
   height: 1600px;
   z-index: -3;
-  border-left: solid 1px var(--blue);
+  border: solid 1px var(--blue);
   border-radius: 50%;
   margin: auto;
   top: 0;
@@ -172,7 +172,7 @@
   width: 1800px;
   height: 1800px;
   z-index: -3;
-  border-left: solid 1px var(--blue);
+  border: solid 1px var(--blue);
   border-radius: 50%;
   margin: auto;
   top: 0;
@@ -186,7 +186,7 @@
   width: 2000px;
   height: 2000px;
   z-index: -3;
-  border-left: solid 1px var(--blue);
+  border: solid 1px var(--blue);
   border-radius: 50%;
   margin: auto;
   top: 0;

@@ -197,13 +197,12 @@
 }
 
 .block_2_right {
-  flex-grow: 0;
+  flex-grow: 1;
   background: var(--white);
 }
 
 .text_block {
-  width: 582px;
-  margin-right: 61px;
+  max-width: 582px;
 }
 
 .block_2_right .top {
@@ -211,21 +210,21 @@
 }
 
 .block_2_right .h3 {
-  width: 426px;
+  max-width: 426px;
   margin-bottom: 26px;
 }
 
 .block_2_right .text {
   color: var(--text_black);
   display: block;
-  width: 407px;
+  max-width: 407px;
   font-size: 16px;
   line-height: 23px;
   font-weight: 500;
 }
 
 .block_2_right .bottom {
-  width: 582px;
+  max-width: 582px;
   margin-top: 22px;
   margin-bottom: 117px;
 }
