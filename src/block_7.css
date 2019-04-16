@@ -1,12 +1,23 @@
 .block_7 {
-  display: flex;
-  justify-content: flex-end;
+  position: relative;
 }
 
-.background {
-  flex-grow: 1;
+.block_7::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  top: 0;
+  left: 0;
   background: url("image/block_7_background.png") no-repeat left;
   background-size: 100% 100%;
+}
+
+.block_7_wrapper {
+  display: flex;
+  max-width: 1440px;
+  justify-content: flex-end;
+  margin: 0 auto;
 }
 
 .block_7 .content {

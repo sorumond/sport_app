@@ -1,8 +1,15 @@
 .block_3 {
-  display: flex;
   justify-content: space-between;
   align-content: center;
   overflow: hidden;
+}
+
+.block_3_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .block_3_left {
@@ -108,7 +115,6 @@
   top: 0;
   bottom: 0;
   opacity: 0.4;
-  overflow: hidden;
 }
 
 .fourth_circle {
@@ -116,13 +122,12 @@
   width: 1000px;
   height: 1000px;
   z-index: -3;
-  border-left: solid 1px var(--blue);
+  border: solid 1px var(--blue);
   border-radius: 50%;
   margin: auto;
   top: 0;
   bottom: 0;
   opacity: 0.4;
-  overflow: hidden;
 }
 
 .fifth_circle {
@@ -136,7 +141,6 @@
   top: 0;
   bottom: 0;
   opacity: 0.3;
-  overflow: hidden;
 }
 
 .sixth_circle {
@@ -150,7 +154,6 @@
   top: 0;
   bottom: 0;
   opacity: 0.3;
-  overflow: hidden;
 }
 
 .seventh_circle {
@@ -164,7 +167,6 @@
   top: 0;
   bottom: 0;
   opacity: 0.2;
-  overflow: hidden;
 }
 
 .eighth_circle {
@@ -178,7 +180,6 @@
   top: 0;
   bottom: 0;
   opacity: 0.2;
-  overflow: hidden;
 }
 
 .ninth_circle {
@@ -192,5 +193,4 @@
   top: 0;
   bottom: 0;
   opacity: 0.1  ;
-  overflow: hidden;
 }
