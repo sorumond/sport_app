@@ -101,7 +101,13 @@
   margin: auto;
   top: 0;
   bottom: 0;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.second_circle__dot {
+  width: 35px;
+  height: 35px;
+  margin-top: 458px;
+  margin-left: 40px;
 }
 
 .third_circle {
