@@ -6,11 +6,11 @@
   content: "";
   position: absolute;
   height: 100%;
-  width: 40%;
+  width: 50%;
   top: 0;
   left: 0;
   background: url("image/block_7_background.png") no-repeat left;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .block_7_wrapper {
@@ -27,12 +27,22 @@
   z-index: 2;
 }
 
+@media (max-width: 1340px) {
+  .block_7::before {
+    width: 60%;
+  }
+
+  .block_7 .content {
+    margin-right: 10px;
+    flex-basis: 480px;
+  }
+}
+
 .block_7_header {
   color: var(--h_black);
   font-size: 28px;
   line-height: 37px;
   display: block;
-  width: 554px;
 }
 
 .block_7 .text {
