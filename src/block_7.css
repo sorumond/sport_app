@@ -24,6 +24,7 @@
   margin-right: 162px;
   margin-top: 105px;
   flex-basis: 535px;
+  z-index: 2;
 }
 
 .block_7_header {

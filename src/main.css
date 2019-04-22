@@ -27,7 +27,7 @@ body {
   --block_1_background: #f4f6f9;
   --h3_black: #333;
   --notification_background: #eee;
-  --main_font: lato, sans-serif;
+  --main_font: 'Lato', sans-serif;
   --twitter-border: #828282;
 }
 
@@ -80,9 +80,9 @@ body {
   text-decoration: none;
   color: var(--white);
   margin-right: 37px;
-  font-weight: bold;
   font-family: var(--main_font);
   font-size: 16px;
+  line-height: 21px;
 }
 
 .footer_middle_link:hover {
