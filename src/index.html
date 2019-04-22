@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="../lib/slick/slick-theme.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
@@ -16,12 +17,12 @@
     <div class="container">
     <a href="javascript: void(0)" class="logo"></a>
     <div class="block_1_text">
-      <h1 class="h1">Get a personalized football experience tailored just for you</h1>
-      <p class="text">Achieve super-fan status by getting tailored updates and up-to-the-minute information on your
+      <h1 class="h1 animated fadeInLeft delay-0.1s" data-wow-delay="0.5">Get a personalized football experience tailored just for you</h1>
+      <p class="text animated fadeIn delay-1s">Achieve super-fan status by getting tailored updates and up-to-the-minute information on your
         team.</p>
       <div>
-        <a href="javascript: void(0)"><img src="image/AppleStore.png" alt="AppleStore" class="apple_store"></a>
-        <a href="javascript: void(0)"><img src="image/GooglePlay.png" alt="Google Play" class="google_play"></a>
+        <a href="javascript: void(0)"><img src="image/AppleStore.png" alt="AppleStore" class="apple_store animated fadeIn delay-1s"></a>
+        <a href="javascript: void(0)"><img src="image/GooglePlay.png" alt="Google Play" class="google_play animated fadeIn delay-1s"></a>
       </div>
     </div>
     </div>
@@ -53,22 +54,22 @@
         </div>
       </div>
       <div class="video_block">
-        <video src="video/Arsenal_Chelsea_game.mp4#t=30,148" controls="controls" class="video"></video>
+        <video src="video/Arsenal_Chelsea_game.mp4#t=30" controls="controls" class="video"></video>
       </div>
     </section>
     <div class="block_2_right">
       <section class="text_block">
-        <p class="blue_text top">WHAT IT DOES</p>
-        <h3 class="h3">An Enhanced Football Experience</h3>
+        <p class="blue_text top wow animated fadeInDown delay-0.5s">WHAT IT DOES</p>
+        <h3 class="h3 wow fadeInRight delay-0.5s">An Enhanced Football Experience</h3>
 
-        <p class="text">The Guardian Live Scores app is your go to app for live scores and watching Premier League
+        <p class="text wow fadeInRight delay-0.5s">The Guardian Live Scores app is your go to app for live scores and watching Premier League
           goals… Get in there, what a result!
           <br>
           <br>
           As well as videos of all the goals, you can watch match highlights, check out the latest scores and results
           and stay bang-up-to-date with the big football stories from The Guardian publication.
         </p>
-        <a href="javascript:void(0)" class="blue_links bottom">Learn More</a>
+        <a href="javascript:void(0)" class="blue_links bottom wow fadeInUp delay-1s">Learn More</a>
       </section>
     </div>
     </div>
@@ -77,15 +78,15 @@
   <div class="block_3">
     <div class="block_3_wrapper">
     <section class="block_3_left">
-      <p class="blue_text top">GET STARTED</p>
-      <h3 class="h3">User-friendly Interface</h3>
-      <p class="text">The in-game goal clips from every Premier League match are available to Guardian TV customers with
+      <p class="blue_text top wow fadeInLeft delay-0">GET STARTED</p>
+      <h3 class="h3 wow fadeIn delay-0.5s">User-friendly Interface</h3>
+      <p class="text wow fadeIn delay-0.5s">The in-game goal clips from every Premier League match are available to Guardian TV customers with
         a Guardian subscription.
         <br>
         <br>
         So, if you’re not a subscriber, now’s the time to make that savvy call. If that’s a step too far for you, you
         can still watch loads of firecracker Premier League action as long as you sign in with a free Guardian iD.</p>
-      <a href="javascript:void(0)" class="blue_links bottom">Learn More</a><br>
+      <a href="javascript:void(0)" class="blue_links bottom wow fadeInUp delay-1s">Learn More</a><br>
     </section>
     <div class="block_3_right">
       <div class="mobile_phone">
@@ -264,5 +265,18 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="../lib/slick/slick.min.js"></script>
 <script type="text/javascript" src="script.js"></script>
+<script src="../lib/wow.min.js"></script>
+<script>
+  wow = new WOW(
+    {
+      boxClass:     'wow',
+      animateClass: 'animated',
+      offset:       0,
+      mobile:       true,
+      live:         true
+    }
+  )
+  wow.init(wow);
+</script>
 </body>
 </html>

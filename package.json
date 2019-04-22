@@ -37,5 +37,9 @@
     "hooks": {
       "pre-push": "npm test"
     }
+  },
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "wowjs": "^1.1.3"
   }
 }
