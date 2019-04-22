@@ -60,6 +60,7 @@
   color: var(--text_black);
   line-height: 18px;
   margin-right: 13px;
+  display: block;
 }
 
 .slick-prev,
