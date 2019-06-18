@@ -11,10 +11,12 @@
 }
 
 body {
-  margin: 0 auto;
+  margin: 0;
   font-family: Lato, sans-serif;
-  display: flex;
-  flex-direction: column;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  padding: 0;
+  width: 100%;
 }
 
 :root {
@@ -101,4 +103,13 @@ body {
 
 .navigation_link {
   margin-right: 17px;
+}
+
+.left {
+  left: 0;
+
+}
+
+.right {
+  right: 0;
 }

@@ -13,15 +13,15 @@
 
 .twitter {
   width: 90%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .post {
   display: flex;
   flex-direction: column;
-  width: 309px;
+  /*width: 309px;*/
   border: 1px solid var(--twitter-border);
-  margin-right: 50px;
+  /*margin-right: 50px;*/
   border-radius: 4px;
   height: 165px; /* goodbye, Lui */
 }
@@ -62,39 +62,39 @@
   margin-right: 13px;
 }
 
-.slick-prev,
-.slick-prev::before {
-  width: 47px;
-  height: 47px;
-  border-radius: 50%;
-  background: url("image/arrow_left.svg") 50% 50% no-repeat;
-  z-index: 10;
-  box-shadow: none;
-}
+/*.slick-prev,*/
+/*.slick-prev::before {*/
+/*  width: 47px;*/
+/*  height: 47px;*/
+/*  border-radius: 50%;*/
+/*  background: url("image/arrow_left.svg") 50% 50% no-repeat;*/
+/*  z-index: 10;*/
+/*  box-shadow: none;*/
+/*}*/
 
-.slick-prev {
-  border: 1px solid var(--blue);
-  left: -50px;
-}
+/*.slick-prev {*/
+/*  border: 1px solid var(--blue);*/
+/*  left: -50px;*/
+/*}*/
 
-.slick-next,
-.slick-next::before {
-  width: 47px;
-  height: 47px;
-  border-radius: 50%;
-  background: url("image/arrow_right.svg") 50% 50% no-repeat;
-  z-index: 10;
-  right: -50px;
-}
+/*.slick-next,*/
+/*.slick-next::before {*/
+/*  width: 47px;*/
+/*  height: 47px;*/
+/*  border-radius: 50%;*/
+/*  background: url("image/arrow_right.svg") 50% 50% no-repeat;*/
+/*  z-index: 10;*/
+/*  right: -50px;*/
+/*}*/
 
-.slick-next {
-  border: 1px solid var(--blue);
-}
+/*.slick-next {*/
+/*  border: 1px solid var(--blue);*/
+/*}*/
 
-.slick-dotted.slick-slider {
-  margin-bottom: 108px;
-}
+/*.slick-dotted.slick-slider {*/
+/*  margin-bottom: 108px;*/
+/*}*/
 
-.slick-dots {
-  bottom: -60px;
-}
+/*.slick-dots {*/
+/*  bottom: -60px;*/
+/*}*/

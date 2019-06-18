@@ -1,0 +1,35 @@
+.left, .right {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  border: 1px solid dodgerblue;
+  outline: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.left {
+  background: white url("img/arrow_left.svg") no-repeat 48%;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  z-index: 2;
+}
+
+.right {
+  background: white url("img/arrow_right.svg") no-repeat 48%;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  z-index: 2;
+}
+
+
+.slide-list {
+  display: flex;
+  /*background: yellow;*/
+  /*height: 500px;*/
+  width: 100%;
+  /*transition: 1.5s;*/
+}
